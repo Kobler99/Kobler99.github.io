@@ -29,7 +29,7 @@ theme = "academic"
     weight = 3
   [[menu.main]]
     name = "CV"
-    url = "/files/Sebastian_Kobler_CV.pdf"
+    url = "/files/sebastian_kobler_cv.pdf"
     weight = 5
 
 [markup]
