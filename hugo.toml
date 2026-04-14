@@ -1,0 +1,38 @@
+baseURL = "https://Kobler99.github.io/"
+languageCode = "en-us"
+title = "Sebastian Kobler"
+theme = "academic"
+
+[params]
+  author = "Sebastian Kobler"
+  shortName = "S. Kobler"
+  tagline = "PhD Researcher, University of Sydney"
+  description = "Personal academic website of Sebastian Kobler — PhD student researching NLP, HCI, and education at the University of Sydney."
+  email = "skob7546@sydney.edu.au"
+  photo = "images/photo.jpg"
+  linkedin = "https://www.linkedin.com/in/sebastian-kobler-774a11164/"
+  # scholar = "https://scholar.google.com/citations?user=YOUR_ID"
+  # github = "sebastiankobler"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "CV"
+    url = "/files/Sebastian_Kobler_CV.pdf"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

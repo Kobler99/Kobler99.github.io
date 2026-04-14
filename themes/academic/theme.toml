@@ -1,0 +1,8 @@
+name = "Academic"
+license = "MIT"
+licenselink = "https://github.com/"
+description = "A minimal academic theme for Hugo"
+min_version = "0.116.0"
+
+[author]
+  name = "Sebastian Kobler"

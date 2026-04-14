@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<div class="project-list">
+  {{ range .Params.projects }}
+  <div class="project-card">
+    <div class="project-header">
+      <h3 class="project-title">{{ .title }}</h3>
+      <span class="project-date">{{ .date }}</span>
+    </div>
+    <p class="project-description">{{ .description }}</p>
+    {{ with .tags }}
+    <div class="project-tags">
+      {{ range . }}
+      <span class="pub-tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
