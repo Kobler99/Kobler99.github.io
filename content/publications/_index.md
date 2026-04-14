@@ -8,7 +8,6 @@ papers:
     tags:
       - "Seminal Paper"
       - "Top 5%"
-      - "Oral"
     links:
       - label: "PDF"
         url: ""
