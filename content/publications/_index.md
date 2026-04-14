@@ -6,8 +6,7 @@ papers:
     authors: "S. Kobler, M. Clemson, A. Sun, J. Kummerfeld"
     venue: "ACL 2026 (Main Conference)"
     tags:
-      - "Seminal Paper"
-      - "Top 5%"
+      - "Area Chair Rating: 10 - Top 5% of Accepted Papers, Seminal Paper"
     links:
       - label: "PDF"
         url: ""
