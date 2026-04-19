@@ -4,12 +4,12 @@ layout: "list"
 papers:
   - title: "Your Students Don't Use LLMs Like You Wish They Did."
     authors: "S. Kobler, M. Clemson, A. Sun, J. Kummerfeld"
-    venue: "ACL 2026 (Main Conference)"
+    venue: "To Appear in ACL 2026 (Main Conference)"
     tags:
       - "Area Chair Rating: 10 - Top 5% of Accepted Papers, Seminal Paper"
     links:
       - label: "PDF"
-        url: ""
+        url: "/files/your_students_dont_use_llms.pdf"
       - label: "Abstract"
         url: ""
       - label: "BibTeX"
