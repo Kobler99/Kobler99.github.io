@@ -28,6 +28,10 @@ theme = "academic"
     url = "/projects/"
     weight = 3
   [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
     name = "CV"
     url = "/files/sebastian_kobler_cv.pdf"
     weight = 5
