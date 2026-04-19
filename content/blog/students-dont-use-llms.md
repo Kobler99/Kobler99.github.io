@@ -4,7 +4,7 @@ date: 2026-04-19
 summary: "We studied 500 real student-AI conversations and found that students mostly use AI tutors to extract answers, not to learn."
 ---
 
-Over the last couple of years, AI tools became a fixture in university classrooms. Every student uses them now. That shift got me thinking: we have all these students interacting with AI, but how do we actually measure whether those interactions are any good? And when we did measure them, we found something that educators probably suspect but haven't been able to prove: your students don't use LLMs like you wish they did.
+Over the last couple of years, AI tools became a fixture in university classrooms. Every student uses them now. That shift got me thinking: we have all these students interacting with AI, but how do we actually measure whether those interactions are any good? Spoiler: we measured them, and your students don't use LLMs like you wish they did.
 
 So when universities started deploying LLM-based tutors, I wasn't surprised that students liked them. These tools are articulate, patient, and available at 2am the night before an exam. What worried me was that everyone seemed to be treating high satisfaction as evidence that the tools were working. I looked at 10 recent papers that evaluated AI tutors with real students, and 9 of them relied on satisfaction surveys or self-reported learning gains. Nobody was checking whether students were actually learning.
 
