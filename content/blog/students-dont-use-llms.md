@@ -18,6 +18,6 @@ What surprised me most was the relationship between engagement and learning. The
 
 The finding I keep coming back to, though, is about deployment. The same kinds of students, using similar AI tools, behaved completely differently depending on how the tool was integrated into the course. When it was optional, it became a cramming tool. When it was built into weekly assignments, usage spread across the semester, students still mostly sought answers. The technology mattered less than the context around it.
 
-Our metrics aren't perfect. Automated detection of some behaviours, like distinguishing genuine problem solving from disguised homework copying, is genuinely hard and we're honest about where our approach falls short. But they're a start at measuring what actually matters instead of what's easy to measure.
+Our metrics aren't perfect. Automated detection of some behaviours, like distinguishing genuine problem solving from disguised homework copying, is genuinely hard and we're honest about where our approach falls short. But they're a start at measuring what actually matters instead of what's easy to measure. That distinction between productive struggle and shortcut-seeking is something I'm actively working on next, and I think it's the key to building AI tools that actually help students learn rather than just help them finish.
 
 The paper is [available here](/files/your_students_dont_use_llms.pdf) and will appear at ACL 2026.
