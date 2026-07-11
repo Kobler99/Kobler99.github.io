@@ -3,32 +3,61 @@
 {{ .Content }}
 
 <ul class="pub-list">
-  {{ range .Params.papers }}
+  {{ range $index, $paper := .Params.papers }}
   <li class="pub-item">
     <div class="pub-row">
       <div class="pub-info">
-        <div class="pub-title">{{ .title }}</div>
-        <div class="pub-authors">{{ .authors }}</div>
-        <div class="pub-venue">{{ .venue }}</div>
+        <div class="pub-title">{{ $paper.title }}</div>
+        <div class="pub-authors">{{ $paper.authors }}</div>
+        <div class="pub-venue">{{ $paper.venue }}</div>
         <div class="pub-tags">
-          {{ range .tags }}
-          <span class="pub-tag{{ if or (in . "Seminal") (in . "Top 5%") (eq . "Oral") }} award{{ end }}">{{ . }}</span>
+          {{ range $paper.tags }}
+          <span class="pub-tag{{ if or (in . "Seminal") (in . "Top 5%") (eq . "Oral") (in . "Best Paper") }} award{{ end }}">{{ . }}</span>
           {{ end }}
         </div>
       </div>
-      {{ with .links }}
       <div class="pub-links">
-        {{ range . }}
-          {{ if .url }}
-            <a href="{{ .url }}" class="pub-link" target="_blank" rel="noopener">{{ .label }}</a>
-          {{ else }}
-            <span class="pub-link coming-soon" title="Coming soon">{{ .label }}</span>
+        {{ with $paper.links }}
+          {{ range . }}
+            {{ if .url }}
+              <a href="{{ .url }}" class="pub-link" target="_blank" rel="noopener">{{ .label }}</a>
+            {{ else }}
+              <span class="pub-link coming-soon" title="Coming soon">{{ .label }}</span>
+            {{ end }}
           {{ end }}
         {{ end }}
+        {{ if $paper.abstract }}
+          <button type="button" class="pub-link pub-toggle" aria-expanded="false" data-target="abstract-{{ $index }}">Abstract</button>
+        {{ end }}
+        {{ if $paper.bibtex }}
+          <button type="button" class="pub-link pub-toggle" aria-expanded="false" data-target="bibtex-{{ $index }}">BibTeX</button>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
+    {{ if $paper.abstract }}
+      <div id="abstract-{{ $index }}" class="pub-panel" hidden>
+        <p class="pub-abstract">{{ $paper.abstract }}</p>
+      </div>
+    {{ end }}
+    {{ if $paper.bibtex }}
+      <div id="bibtex-{{ $index }}" class="pub-panel" hidden>
+        <pre class="pub-bibtex"><code>{{ $paper.bibtex }}</code></pre>
+      </div>
+    {{ end }}
   </li>
   {{ end }}
 </ul>
+
+<script>
+  document.querySelectorAll('.pub-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var panel = document.getElementById(btn.dataset.target);
+      if (!panel) return;
+      var isOpen = !panel.hidden;
+      panel.hidden = isOpen;
+      btn.setAttribute('aria-expanded', String(!isOpen));
+      btn.classList.toggle('active', !isOpen);
+    });
+  });
+</script>
 {{ end }}
