@@ -20,4 +20,4 @@ The finding I keep coming back to, though, is about deployment. The same kinds o
 
 Our metrics aren't perfect. Automated detection of some behaviours, like distinguishing genuine problem solving from disguised homework copying, is genuinely hard and we're honest about where our approach falls short. But they're a start at measuring what actually matters instead of what's easy to measure. That distinction between productive struggle and shortcut-seeking is something I'm actively working on next, and I think it's the key to building AI tools that actually help students learn rather than just hand them the answer.
 
-The paper is [available here](/files/your_students_dont_use_llms.pdf) and will appear at ACL 2026, where it received the Social Impact Best Paper Award (one of 30 papers out of roughly 2,200 in the main conference).
+The paper is [available here](/files/your_students_dont_use_llms.pdf) and will appear at ACL 2026, where it received the Social Impact Best Paper Award.

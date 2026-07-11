@@ -6,7 +6,7 @@ papers:
     authors: "S. Kobler, M. Clemson, A. Sun, J. Kummerfeld"
     venue: "To Appear in ACL 2026 (Main Conference)"
     tags:
-      - "Social Impact Best Paper Award, ACL 2026 (30 of ~2,200 main-conference papers)"
+      - "Social Impact Best Paper Award, ACL 2026"
     links:
       - label: "PDF"
         url: "https://aclanthology.org/2026.acl-long.875.pdf"
