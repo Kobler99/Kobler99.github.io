@@ -3,3 +3,9 @@ resources/
 .hugo_build.lock
 .DS_Store
 Thumbs.db
+
+# Loose source files kept in the project root but not part of the site
+/*.pdf
+/*.jpg
+/*.jpeg
+/*.png
