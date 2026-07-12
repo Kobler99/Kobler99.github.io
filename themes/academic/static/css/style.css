@@ -154,20 +154,26 @@ a:hover {
 
 /* === About Split === */
 .about-split {
-  display: flex;
-  gap: var(--spacing-xl);
   margin-bottom: var(--spacing-lg);
-  align-items: flex-start;
+}
+
+/* clear the floated photo so it never spills past the section */
+.about-split::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .about-photo {
-  flex-shrink: 0;
-  width: 180px;
+  float: left;
+  width: 210px;
+  margin: 0 var(--spacing-xl) var(--spacing-sm) 0;
 }
 
 .about-photo img {
   width: 100%;
   border-radius: 6px;
+  display: block;
 }
 
 .photo-placeholder {
@@ -178,8 +184,6 @@ a:hover {
 }
 
 .about-details {
-  flex: 1;
-  min-width: 0;
   font-size: 0.95rem;
   line-height: 1.8;
 }
@@ -615,13 +619,10 @@ a:hover {
     flex-direction: column;
   }
 
-  .about-split {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .about-photo {
-    width: 160px;
+    float: none;
+    width: 180px;
+    margin: 0 auto var(--spacing-md);
   }
 
   .pub-row {
