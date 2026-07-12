@@ -188,6 +188,12 @@ a:hover {
   line-height: 1.8;
 }
 
+/* Only the intro paragraph wraps beside the photo; everything after it
+   (Interests, Me, social icons) clears below so it stays left-aligned. */
+.about-details > *:not(:first-child) {
+  clear: left;
+}
+
 .about-details p {
   margin-bottom: var(--spacing-md);
 }
