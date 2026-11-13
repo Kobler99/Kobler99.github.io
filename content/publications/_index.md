@@ -35,9 +35,8 @@ papers:
 
   - title: "Off-Topic Detection in Educational LLM Tutors: From Synthetic Stress-Testing to Real-World Validation."
     authors: "S. Kobler, J. Kummerfeld"
-    venue: "Under review (ACL Rolling Review)"
-    tags:
-      - "Under Review"
+    venue: "To Appear in Findings of EACL 2027"
+    tags: []
     links: []
 
   - title: "Can LLMs be Effective In-Class Tutors?"
