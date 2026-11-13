@@ -4,7 +4,7 @@ layout: "list"
 papers:
   - title: "Your Students Don't Use LLMs Like You Wish They Did."
     authors: "S. Kobler, M. Clemson, A. Sun, J. Kummerfeld"
-    venue: "To Appear in ACL 2026 (Main Conference)"
+    venue: "ACL 2026 (Main Conference)"
     tags:
       - "Social Impact Best Paper Award, ACL 2026"
       - "SAC Highlight Award, ACL 2026"
