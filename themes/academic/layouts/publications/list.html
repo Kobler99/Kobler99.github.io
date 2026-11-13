@@ -12,7 +12,7 @@
         <div class="pub-venue">{{ $paper.venue }}</div>
         <div class="pub-tags">
           {{ range $paper.tags }}
-          <span class="pub-tag{{ if or (in . "Seminal") (in . "Top 5%") (eq . "Oral") (in . "Best Paper") }} award{{ end }}">{{ . }}</span>
+          <span class="pub-tag{{ if or (in . "Seminal") (in . "Top 5%") (eq . "Oral") (in . "Best Paper") (in . "Award") }} award{{ end }}">{{ . }}</span>
           {{ end }}
         </div>
       </div>

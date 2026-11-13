@@ -7,6 +7,7 @@ papers:
     venue: "To Appear in ACL 2026 (Main Conference)"
     tags:
       - "Social Impact Best Paper Award, ACL 2026"
+      - "SAC Highlight Award, ACL 2026"
     links:
       - label: "PDF"
         url: "https://aclanthology.org/2026.acl-long.875.pdf"
