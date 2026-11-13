@@ -3,7 +3,7 @@ title: "Publications"
 layout: "list"
 papers:
   - title: "Your Students Don't Use LLMs Like You Wish They Did."
-    authors: "S. Kobler, M. Clemson, A. Sun, J. Kummerfeld"
+    authors: "S. Kobler, M. Clemson, A. Sun, J. K. Kummerfeld"
     venue: "ACL 2026 (Main Conference)"
     tags:
       - "Social Impact Best Paper Award, ACL 2026"
@@ -35,13 +35,13 @@ papers:
       }
 
   - title: "Off-Topic Detection in Educational LLM Tutors: From Synthetic Stress-Testing to Real-World Validation."
-    authors: "S. Kobler, J. Kummerfeld"
+    authors: "S. Kobler, J. K. Kummerfeld"
     venue: "To Appear in Findings of EACL 2027"
     tags: []
     links: []
 
   - title: "Can LLMs be Effective In-Class Tutors?"
-    authors: "S. Kobler, J. Kummerfeld"
+    authors: "S. Kobler, J. K. Kummerfeld"
     venue: "ALTA 2024 (Australasian Language Technology Association Workshop)"
     tags: []
     links:
