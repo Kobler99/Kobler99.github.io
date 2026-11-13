@@ -16,4 +16,4 @@ Human-AI Interaction<br>
 Language Generation<br>
 NLP for Education
 
-**Me:** I am a third-year PhD student in the [School of Computer Science](https://www.sydney.edu.au/engineering/schools/school-of-computer-science.html) at the University of Sydney.
+**Me:** I am a third-year PhD student in the [School of Computer Science](https://www.sydney.edu.au/engineering/schools/school-of-computer-science.html) at the University of Sydney. I am currently an Applied Scientist Intern at Amazon in New York (October 2026 – January 2027).
